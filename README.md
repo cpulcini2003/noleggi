@@ -41,7 +41,7 @@ pcarlo=#
 # CREAZIONE TABELLE ED INSERIMENTO DATI TRAMITE SCRIPT SQL
 
 pcarlo=# \q
-pcarlo@DLJ473C2T5 noleggi % /Applications/Postgres.app/Contents/Versions/15/bin/psql -U pcarlo -d noleggi -a -f initDB.sql
+pcarlo@DLJ473C2T5 noleggi % /Applications/Postgres.app/Contents/Versions/15/bin/psql -a -f initDB.sql
 
 ....
 OMISSIS
@@ -134,4 +134,6 @@ seguire video su https://www.youtube.com/watch?v=cc-cSSsGqbA
 
 
 ## TEST QUERY DA VSCODE
+
+select * FROM manutenzioni;
 
